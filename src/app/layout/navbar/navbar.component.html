@@ -1,0 +1,72 @@
+<nav
+  class="fixed w-full z-50 transition-all duration-300"
+  [ngClass]="shouldBeSolid ? 'bg-white/95 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center">
+      <!-- Logo -->
+      <a routerLink="/" class="flex items-center gap-2">
+        <span
+          class="text-2xl font-bold tracking-tight uppercase"
+          [ngClass]="shouldBeSolid ? 'text-brand-primary' : 'text-white'"
+        >
+          DiCAPITALE
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a
+          *ngFor="let link of navLinks"
+          [routerLink]="link.href"
+          class="text-sm font-medium transition-colors hover:text-brand-secondary"
+          [ngClass]="shouldBeSolid ? 'text-ovkos-black hover:text-brand-primary' : 'text-white/90'"
+        >
+          {{ link.name }}
+        </a>
+      </div>
+
+      <!-- CTA Button -->
+      <div class="hidden md:block">
+        <a
+          routerLink="/contact"
+          class="bg-brand-secondary text-ovkos-black px-6 py-3 rounded-none font-semibold uppercase text-sm tracking-wider hover:bg-yellow-400 transition-colors shadow-md inline-block"
+        >
+          Get a Quote
+        </a>
+      </div>
+
+      <!-- Mobile menu button -->
+      <div class="md:hidden flex items-center">
+        <button
+          (click)="toggleMobileMenu()"
+          [ngClass]="shouldBeSolid ? 'text-ovkos-black' : 'text-white'"
+        >
+          <lucide-icon *ngIf="mobileMenuOpen" [img]="XIcon" size="28"></lucide-icon>
+          <lucide-icon *ngIf="!mobileMenuOpen" [img]="MenuIcon" size="28"></lucide-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div *ngIf="mobileMenuOpen" class="md:hidden bg-white shadow-xl absolute top-full left-0 w-full border-t border-gray-100">
+    <div class="px-4 pt-4 pb-6 space-y-2">
+      <a
+        *ngFor="let link of navLinks"
+        [routerLink]="link.href"
+        class="block px-3 py-4 text-base font-medium text-ovkos-black hover:text-brand-primary border-b border-gray-50"
+        (click)="mobileMenuOpen = false"
+      >
+        {{ link.name }}
+      </a>
+      <a
+        routerLink="/contact"
+        class="block mt-6 text-center bg-brand-primary text-white px-6 py-4 rounded-none font-semibold uppercase tracking-wider"
+        (click)="mobileMenuOpen = false"
+      >
+        Get Your Free Quote
+      </a>
+    </div>
+  </div>
+</nav>

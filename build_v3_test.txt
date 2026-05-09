@@ -1,0 +1,13 @@
+[33mΓ¥»[39m Building...
+[32mΓ£ö[39m Building...
+[1mInitial chunk files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mmain-FHS7GKUA.js[39m     [2m | [22m[2mmain[22m         [2m | [22m[36m296.95 kB[39m[2m | [22m               [36m77.59 kB[39m
+[32mpolyfills-DOYHMSTV.js[39m[2m | [22m[2mpolyfills[22m    [2m | [22m [36m35.73 kB[39m[2m | [22m               [36m11.58 kB[39m
+[32mstyles-5PEU6EB6.css[39m  [2m | [22m[2mstyles[22m       [2m | [22m [36m20.46 kB[39m[2m | [22m                [36m3.64 kB[39m
+
+[1m [22m                    [2m | [22m[1mInitial total[22m[2m | [22m[1m353.13 kB[22m[2m | [22m               [1m92.81 kB[22m
+
+Application bundle generation complete. [12.521 seconds] - 2026-03-23T17:30:33.042Z
+
+Output location: C:\Users\dell\Documents\ALF CLIENTS\LIMPIO\2026\peaceofmindwebsite\dist\peaceofmindwebsite
+

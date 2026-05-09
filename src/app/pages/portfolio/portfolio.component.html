@@ -1,0 +1,58 @@
+<div class="pt-24 pb-16 bg-gray-50 min-h-screen">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="text-center max-w-3xl mx-auto mb-20 transform transition-all duration-700 translate-y-0 opacity-100">
+      <h1 class="text-4xl md:text-5xl font-bold text-ovkos-black mb-6">
+        Our Portfolio
+      </h1>
+      <p class="text-xl text-gray-600 font-sans">
+        A showcase of precision, transparency, and luxury. See what we've built for our diaspora and investor clients.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div 
+        *ngFor="let project of projects" 
+        class="bg-white shadow-md group overflow-hidden flex flex-col h-full border border-gray-100 transform translate-y-0 opacity-100 transition-all duration-700 hover:-translate-y-2"
+      >
+        <div class="aspect-[16/10] overflow-hidden relative">
+          <div 
+            class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" 
+            [style.backgroundImage]="'url(' + project.image + ')'"
+          ></div>
+          <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 text-xs font-bold uppercase tracking-widest text-brand-primary font-sans">
+            {{ project.category }}
+          </div>
+        </div>
+        <div class="p-8 flex-grow flex flex-col">
+          <div class="text-brand-secondary text-sm font-bold uppercase tracking-widest mb-2 font-sans">
+            {{ project.clientLocation }}
+          </div>
+          <h3 class="text-2xl font-bold text-ovkos-black mb-4">{{ project.title }}</h3>
+          <p class="text-gray-600 mb-8 flex-grow font-sans">
+            {{ project.desc }}
+          </p>
+          <a 
+            routerLink="/contact" 
+            class="inline-flex items-center text-brand-primary font-bold uppercase tracking-wider text-sm hover:text-brand-secondary transition-colors mt-auto font-sans"
+          >
+            View Case Study
+            <lucide-icon [img]="ArrowRightIcon" size="16" class="ml-2"></lucide-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-24 bg-brand-primary p-12 text-center text-white transform translate-y-0 opacity-100 transition-all duration-700">
+      <h2 class="text-3xl font-bold mb-6">Ready to see your project here?</h2>
+      <p class="text-lg text-white/80 mb-8 max-w-2xl mx-auto font-sans">
+        Our next masterpiece could be yours. Let's start the conversation about your vision and how we can make it a reality.
+      </p>
+      <a
+        routerLink="/contact"
+        class="inline-block bg-brand-secondary text-ovkos-black font-bold uppercase tracking-wider px-10 py-4 hover:bg-yellow-400 transition-colors font-sans text-sm"
+      >
+        Contact Us
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+<div class="pt-24 pb-16 bg-white shrink-0 min-h-screen">
+  <div class="bg-brand-primary text-white py-24 px-4 relative overflow-hidden">
+    <div class="absolute inset-0 bg-black/40 z-10"></div>
+    <div 
+      class="absolute inset-0 z-0 bg-cover bg-center opacity-60"
+      style="background-image: url('https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80')"
+    ></div>
+    <div class="relative z-20 max-w-5xl mx-auto text-center transform transition-all duration-700 opacity-100 translate-y-0">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
+        The #PeaceOfMindPackage
+      </h1>
+      <p class="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed font-sans">
+        Eliminate distance, doubt, and drama. Experience the most transparent end-to-end residential building service for the diaspora.
+      </p>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="text-center mb-16">
+      <h2 class="text-sm font-bold tracking-widest text-brand-secondary uppercase mb-3 font-sans">Our Framework</h2>
+      <h3 class="text-3xl md:text-5xl font-bold text-ovkos-black">The 6-Step Process</h3>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div 
+        *ngFor="let step of steps" 
+        class="bg-gray-50 p-10 border border-gray-100 hover:shadow-xl transition-all duration-300 transform translate-y-0 opacity-100"
+      >
+        <span class="text-5xl font-bold text-brand-secondary/30 mb-6 block font-serif">
+          {{ step.num }}
+        </span>
+        <h4 class="text-xl font-bold text-ovkos-black mb-4">
+          {{ step.title }}
+        </h4>
+        <p class="text-gray-600 leading-relaxed text-sm font-sans">
+          {{ step.desc }}
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-20 text-center">
+      <a
+        routerLink="/contact"
+        class="inline-block bg-brand-primary text-white font-bold uppercase tracking-wider px-10 py-5 hover:bg-blue-900 transition-colors shadow-lg font-sans text-sm"
+      >
+        Start Your Project Today
+      </a>
+    </div>
+  </div>
+</div>

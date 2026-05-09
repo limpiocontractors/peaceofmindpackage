@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "Luxury Retreat in Entebbe",
+      "category": "Peace of Mind Package",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1175&q=80",
+      "clientLocation": "Client based in London, UK",
+      "desc": "A custom 5-bedroom villa built entirely while the client was abroad."
+    },
+    {
+      "title": "Bwindi Safari Lodge",
+      "category": "Tuo Construction",
+      "image": "https://images.unsplash.com/photo-1542314831-c6a4d14fff88?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+      "clientLocation": "International Tourism Investor",
+      "desc": "Eco-friendly premium lodge integrated directly into the surrounding jungle."
+    },
+    {
+      "title": "Modern Kampala Apartments",
+      "category": "Peace of Mind Package",
+      "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+      "clientLocation": "Client based in Dubai, UAE",
+      "desc": "A high-yield 8-unit multiplex apartment built as a generational wealth investment."
+    },
+    {
+      "title": "Murchison Riverside Cabins",
+      "category": "Tuo Construction",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+      "clientLocation": "Local Tour Operator",
+      "desc": "Off-grid luxury cabins built specifically for high-end safari guests."
+    }
+  ]
+}

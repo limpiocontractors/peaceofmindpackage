@@ -1,0 +1,88 @@
+[33mΓ¥»[39m Building...
+[32mΓ£ö[39m Building...
+Application bundle generation failed. [4.862 seconds] - 2026-03-23T10:15:14.426Z
+
+X [ERROR] NG2012: Component imports contains a ModuleWithProviders value, likely the result of a 'Module.forRoot()'-style call. These calls are not used to configure components and are not valid in standalone component imports - consider importing them in the application bootstrap instead. [plugin angular-compiler]
+
+    src/app/layout/footer/footer.component.ts:9:40:
+      9 Γöé ...terModule, LucideAngularModule.pick({ Facebook, Instagram, Twitt...
+        Γò╡               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2322: Type 'ModuleWithProviders<LucideAngularModule>' is not assignable to type 'readonly any[] | Type<any>'. [plugin angular-compiler]
+
+    src/app/layout/footer/footer.component.ts:9:40:
+      9 Γöé ...terModule, LucideAngularModule.pick({ Facebook, Instagram, Twitt...
+        Γò╡               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG2012: Component imports contains a ModuleWithProviders value, likely the result of a 'Module.forRoot()'-style call. These calls are not used to configure components and are not valid in standalone component imports - consider importing them in the application bootstrap instead. [plugin angular-compiler]
+
+    src/app/layout/navbar/navbar.component.ts:9:40:
+      9 Γöé ...CommonModule, RouterModule, LucideAngularModule.pick({ Menu, X })],
+        Γò╡                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2322: Type 'ModuleWithProviders<LucideAngularModule>' is not assignable to type 'readonly any[] | Type<any>'. [plugin angular-compiler]
+
+    src/app/layout/navbar/navbar.component.ts:9:40:
+      9 Γöé ...CommonModule, RouterModule, LucideAngularModule.pick({ Menu, X })],
+        Γò╡                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG2012: Component imports contains a ModuleWithProviders value, likely the result of a 'Module.forRoot()'-style call. These calls are not used to configure components and are not valid in standalone component imports - consider importing them in the application bootstrap instead. [plugin angular-compiler]
+
+    src/app/pages/home/home.component.ts:9:40:
+      9 Γöé ...terModule, LucideAngularModule.pick({ ArrowRight, Play, FileChec...
+        Γò╡               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2322: Type 'ModuleWithProviders<LucideAngularModule>' is not assignable to type 'readonly any[] | Type<any>'. [plugin angular-compiler]
+
+    src/app/pages/home/home.component.ts:9:40:
+      9 Γöé ...terModule, LucideAngularModule.pick({ ArrowRight, Play, FileChec...
+        Γò╡               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG2012: Component imports contains a ModuleWithProviders value, likely the result of a 'Module.forRoot()'-style call. These calls are not used to configure components and are not valid in standalone component imports - consider importing them in the application bootstrap instead. [plugin angular-compiler]
+
+    src/app/pages/portfolio/portfolio.component.ts:10:40:
+      10 Γöé ...onModule, RouterModule, LucideAngularModule.pick({ ArrowRight })],
+         Γò╡                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2322: Type 'ModuleWithProviders<LucideAngularModule>' is not assignable to type 'readonly any[] | Type<any>'. [plugin angular-compiler]
+
+    src/app/pages/portfolio/portfolio.component.ts:10:40:
+      10 Γöé ...onModule, RouterModule, LucideAngularModule.pick({ ArrowRight })],
+         Γò╡                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG2012: Component imports contains a ModuleWithProviders value, likely the result of a 'Module.forRoot()'-style call. These calls are not used to configure components and are not valid in standalone component imports - consider importing them in the application bootstrap instead. [plugin angular-compiler]
+
+    src/app/pages/process/process.component.ts:10:40:
+      10 Γöé ...erModule, LucideAngularModule.pick({ Search, ShieldCheck, Ruler...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2322: Type 'ModuleWithProviders<LucideAngularModule>' is not assignable to type 'readonly any[] | Type<any>'. [plugin angular-compiler]
+
+    src/app/pages/process/process.component.ts:10:40:
+      10 Γöé ...erModule, LucideAngularModule.pick({ Search, ShieldCheck, Ruler...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG2012: Component imports contains a ModuleWithProviders value, likely the result of a 'Module.forRoot()'-style call. These calls are not used to configure components and are not valid in standalone component imports - consider importing them in the application bootstrap instead. [plugin angular-compiler]
+
+    src/app/pages/tuo-construction/tuo-construction.component.ts:10:40:
+      10 Γöé ...erModule, LucideAngularModule.pick({ TreePine, CheckCircle2, Co...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2322: Type 'ModuleWithProviders<LucideAngularModule>' is not assignable to type 'readonly any[] | Type<any>'. [plugin angular-compiler]
+
+    src/app/pages/tuo-construction/tuo-construction.component.ts:10:40:
+      10 Γöé ...erModule, LucideAngularModule.pick({ TreePine, CheckCircle2, Co...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+

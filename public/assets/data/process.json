@@ -1,0 +1,34 @@
+{
+  "processSteps": [
+    {
+      "num": "01",
+      "title": "Discovery & Alignment",
+      "desc": "Our journey begins with a comprehensive consultation. We dive deep into your vision, requirements, timeline, and budget. This ensures we are perfectly aligned before any commitments are made. It's about setting realistic expectations from day one."
+    },
+    {
+      "num": "02",
+      "title": "Secure Land Acquisition",
+      "desc": "We take the risk out of buying property in Uganda. Our legal team conducts rigorous due diligence, verifying land titles, checking for encumbrances, and ensuring the property is 100% legally sound before you sign anything. The title stays in your name throughout."
+    },
+    {
+      "num": "03",
+      "title": "Architectural Design",
+      "desc": "Once the land is secured, our elite architects translate your vision into functional, aesthetically stunning blueprints. We navigate the local and regional bureaucracy to ensure all building plans are fully approved by the city council before breaking ground."
+    },
+    {
+      "num": "04",
+      "title": "Transparent Costing (BOQ)",
+      "desc": "You receive a highly detailed, un-inflated Bill of Quantities (BOQ). We present actual market prices and lock them in. You will always know where every shilling is going. True transparency, zero hidden costs."
+    },
+    {
+      "num": "05",
+      "title": "Milestone Construction",
+      "desc": "Construction begins, and you stay in the loop. You unlock the funds only as we hit predefined milestones. Through WhatsApp updates, timestamped drone footage, and live site cameras, you can watch your property rise from the ground up, up close."
+    },
+    {
+      "num": "06",
+      "title": "Handover & Move-In",
+      "desc": "Upon completion, our LimpioClean division performs a rigorous, deep industrial clean of the property. We hand over the keys to a flawless, sparkling new home or lodge, perfectly ready for immediate occupation."
+    }
+  ]
+}

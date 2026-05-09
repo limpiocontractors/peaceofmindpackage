@@ -1,0 +1,10 @@
+{
+  "steps": [
+    { "num": "01", "title": "Discovery & Alignment", "desc": "We sit down (virtually) to understand your exact vision, timeline, and realistic budget. No fluff." },
+    { "num": "02", "title": "Land Search & Verification", "desc": "Our legal team verifies the title, checks for encumbrances, and ensures the land is 100% yours and safe to build on." },
+    { "num": "03", "title": "Design & Approvals", "desc": "We produce world-class architectural designs and handle the bureaucracy of local council approvals." },
+    { "num": "04", "title": "Transparent Costing", "desc": "You receive a realistic, un-inflated BOQ (Bill of Quantities). If any changes occur, you approve them first." },
+    { "num": "05", "title": "Milestone Construction", "desc": "We build. You watch via live cams and weekly timestamped reports. Payments are released only when milestones are hit." },
+    { "num": "06", "title": "Handover & LimpioClean", "desc": "The keys are handed over to a spotless, professionally deep-cleaned home ready for you to move in." }
+  ]
+}

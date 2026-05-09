@@ -1,0 +1,7 @@
+{
+  "specialties": [
+    { "title": "Eco-Lodges", "desc": "Sustainable structures that blend into the natural environment without disrupting local ecosystems." },
+    { "title": "Safari Camps", "desc": "High-end tented camps and permanent structures built for extreme durability in wild environments." },
+    { "title": "Boutique Hospitality", "desc": "Detailed, culturally resonant designs meant for premium guest experiences." }
+  ]
+}
