@@ -15,11 +15,11 @@ export default function TuoConstructionPage() {
     <div className="pt-24 pb-16 bg-white min-h-screen">
       <div className="bg-brand-secondary py-24 px-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-black/10 z-10" />
-        <div 
+        <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-40 mix-blend-overlay"
           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1542314831-c6a4d14fff88?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80')" }}
         />
-        <motion.div 
+        <motion.div
           className="relative z-20 max-w-5xl mx-auto text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -52,7 +52,7 @@ export default function TuoConstructionPage() {
             <p className="text-lg text-gray-600 mb-8 leading-relaxed font-sans">
               Tuo Construction was formed specifically to bridge the gap between world-class hospitality design and the realities of building in the Ugandan wilderness.
             </p>
-            
+
             <ul className="space-y-4 font-sans">
               <li className="flex items-start">
                 <CheckCircle2 className="text-brand-primary mr-3 shrink-0 mt-1" />
@@ -70,7 +70,7 @@ export default function TuoConstructionPage() {
           </motion.div>
 
           {/* Specialties Grid */}
-          <motion.div 
+          <motion.div
             className="grid grid-cols-1 gap-6"
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -86,7 +86,7 @@ export default function TuoConstructionPage() {
           </motion.div>
         </div>
 
-        <motion.div 
+        <motion.div
           className="mt-24 text-center bg-gray-50 border border-gray-100 p-12"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -102,7 +102,7 @@ export default function TuoConstructionPage() {
             href="/contact"
             className="inline-block bg-ovkos-black text-white font-bold uppercase tracking-wider px-10 py-5 hover:bg-gray-800 transition-colors shadow-lg font-sans text-sm"
           >
-            Consult Our Tourism Team
+            Consult Our Team
           </Link>
         </motion.div>
       </div>
