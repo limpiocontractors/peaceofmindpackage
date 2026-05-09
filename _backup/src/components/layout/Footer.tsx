@@ -73,7 +73,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-white/80 text-sm">
                 <MapPin size={18} className="text-brand-secondary shrink-0 mt-0.5" />
-                <span>Kampala, Uganda<br/>(Serving the Global Diaspora)</span>
+                <span>Kampala & Entebbe<br />Uganda (Serving the Global Diaspora)</span>
               </li>
               <li className="flex items-center gap-3 text-white/80 text-sm">
                 <Phone size={18} className="text-brand-secondary shrink-0" />
@@ -93,14 +93,14 @@ export default function Footer() {
               Get the latest insights on building in Uganda and avoiding diaspora pitfalls.
             </p>
             <form className="space-y-2">
-              <input 
-                type="email" 
-                placeholder="Your email address" 
+              <input
+                type="email"
+                placeholder="Your email address"
                 className="w-full bg-white/10 border border-white/20 text-white px-4 py-3 text-sm focus:outline-none focus:border-brand-secondary focus:ring-1 focus:ring-brand-secondary transition-all placeholder:text-white/40"
                 required
               />
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="w-full bg-brand-secondary text-ovkos-black font-semibold uppercase tracking-wider text-sm px-4 py-3 hover:bg-yellow-400 transition-colors"
               >
                 Subscribe

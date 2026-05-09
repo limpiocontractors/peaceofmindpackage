@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  # Set the base URL for rewrites
+  RewriteBase /
+  
+  # If the requested file is index.html, do nothing
+  RewriteRule ^index\.html$ - [L]
+  
+  # If the requested file or directory does not exist
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # Redirect all other requests to index.html
+  RewriteRule . /index.html [L]
+</IfModule>
