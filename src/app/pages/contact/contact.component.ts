@@ -34,9 +34,10 @@ export class ContactComponent implements OnDestroy {
 
   constructor(private fb: FormBuilder) {
     this.contactForm = this.fb.group({
-      firstName: ['', Validators.required],
-      lastName: ['', Validators.required],
+      name: ['', Validators.required],
+      company: [''],
       email: ['', [Validators.required, Validators.email]],
+      phone: ['', Validators.required],
       subject: ['peace-of-mind', Validators.required],
       message: ['', Validators.required],
       // Honeypot field (must remain empty)
@@ -106,8 +107,10 @@ export class ContactComponent implements OnDestroy {
       const formValue = this.contactForm.value;
 
       const templateParams = {
-        name: `${formValue.firstName} ${formValue.lastName}`,
+        name: formValue.name,
+        company: formValue.company || 'Not Provided',
         email: formValue.email,
+        phone: formValue.phone,
         subject: formValue.subject,
         message: formValue.message,
         time: new Date().toLocaleString()
