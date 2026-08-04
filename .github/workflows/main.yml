@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20.20.2
+          node-version: 22
 
       - name: Install dependencies
         run: npm ci
@@ -28,7 +28,7 @@ jobs:
         run: ls -R dist
 
       - name: Deploy to cPanel via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
@@ -37,4 +37,4 @@ jobs:
           protocol: ftps
           local-dir: dist/peaceofmindwebsite/browser/
           server-dir: ./
-          dangerous-clean-slate: true
+
