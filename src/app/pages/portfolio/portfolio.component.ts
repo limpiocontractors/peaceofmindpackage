@@ -25,7 +25,7 @@ export class PortfolioComponent implements OnInit {
   projects: Project[] = [
     {
       name: 'Camping Site at Mweya for UWA',
-      thumbnail: 'assets/images/projects/campingsite_mweya.jpg',
+      thumbnail: 'assets/images/projects/campingsite_mweya1.jpg',
       images: [
         'assets/images/projects/campingsite_mweya.jpg',
         'assets/images/projects/campingsite_mweya1.jpg',
@@ -87,7 +87,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       name: 'Makindye Apartments',
-      thumbnail: 'assets/images/projects/apartments (1).jpg',
+      thumbnail: 'assets/images/projects/apartments (13).jpg',
       images: [
         'assets/images/projects/apartments (1).jpg',
         'assets/images/projects/apartments (2).jpg',
@@ -148,7 +148,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       name: 'Sunflower',
-      thumbnail: 'assets/images/projects/sunflower (1).jpg',
+      thumbnail: 'assets/images/projects/sunflower (22).jpg',
       images: [
         'assets/images/projects/sunflower (1).jpg',
         'assets/images/projects/sunflower (2).jpg',
