@@ -147,6 +147,18 @@ export class PortfolioComponent implements OnInit {
       ]
     },
     {
+      name: 'SS9-Bungalow',
+      thumbnail: 'assets/images/projects/ss9-bungalow (1).JPG',
+      images: [
+        'assets/images/projects/ss9-bungalow (1).JPG',
+        'assets/images/projects/ss9-bungalow (2).JPG',
+        'assets/images/projects/ss9-bungalow (3).JPG',
+        'assets/images/projects/ss9-bungalow (4).JPG',
+        'assets/images/projects/ss9-bungalow (5).JPG',
+        'assets/images/projects/ss9-bungalow (6).JPG'
+      ]
+    },
+    {
       name: 'Sunflower',
       thumbnail: 'assets/images/projects/sunflower (22).jpg',
       images: [
