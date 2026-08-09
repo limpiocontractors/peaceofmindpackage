@@ -147,6 +147,15 @@ export class PortfolioComponent implements OnInit {
       ]
     },
     {
+      name: 'Queen’s Pavillion at Kikorongo(Queen Elizabeth National Park)',
+      thumbnail: 'assets/images/projects/queens-pavilion (1).JPG',
+      images: [
+        'assets/images/projects/queens-pavilion (1).JPG',
+        'assets/images/projects/queens-pavilion (2).JPG',
+        'assets/images/projects/queens-pavilion (3).JPG'
+      ]
+    },
+    {
       name: 'SS9-Bungalow',
       thumbnail: 'assets/images/projects/ss9-bungalow (1).JPG',
       images: [
