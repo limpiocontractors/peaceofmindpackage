@@ -159,7 +159,7 @@ export class PortfolioComponent implements OnInit {
       ]
     },
     {
-      name: 'Sunflower',
+      name: 'Sun Flower Resort',
       thumbnail: 'assets/images/projects/sunflower (22).jpg',
       images: [
         'assets/images/projects/sunflower (1).jpg',
